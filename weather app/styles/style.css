@@ -1,0 +1,64 @@
+/* Reset for Box Model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Reset for Typography */
+body, h1, h2, h3, h4, h5, h6, p, a, button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Reset for List */
+ul, ol {
+    list-style-type: none;
+}
+
+/* Reset for Image */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Reset for Button */
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Reset for Input */
+input[type="text"], input[type="email"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="url"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime-local"], input[type="color"], input[type="checkbox"], input[type="radio"], textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    padding: 6px 10px;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Reset for Form */
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+/* Reset for Table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
